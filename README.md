@@ -37,7 +37,7 @@ Data cleaning and exploration of play frequency and download log can be found in
 The critical part of this sections is to determine the utility of user based on the play log and download log.
 
 ### Building Recommenders
-Graphlab has a very efficient algorithms to build recommenders on a local machine. However, because the utility matrix is very sparse, it is quite slow to obtain recommendations. So I had to build the recommender on a Spark cluster. The details are in the music_recommender_spark.
+Graphlab has a very efficient algorithms to build recommenders on a local machine. However, because the utility matrix is very sparse, it is quite slow to obtain recommendations. So I had to build the recommender on a Spark cluster. The details are in the music_recommender_spark notebook.
 
 ### Web Application
 To complete the end-to-end experience of a industry project, I created a web application that read recommendations from a database server and recommend music to the music app users using Flask.
